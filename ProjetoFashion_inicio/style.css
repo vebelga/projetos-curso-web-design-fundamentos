@@ -1,0 +1,81 @@
+body{
+    padding: 20px 50px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header{
+    background-image: url(/imagens/topo.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+nav{
+    background-color: #081a24;
+    width: 100%;
+    padding-left: 150px;
+}
+
+nav, img{
+    float: left;
+}
+
+nav, ul{  
+    text-transform: uppercase;
+}
+
+nav, ul, li{
+    list-style: none;
+    color: #2a4448;  
+    display: inline-block;
+    padding-right: 25px;
+    box-sizing: border-box;
+    text-align: right;
+    cursor: pointer;
+}
+
+nav, ul, li:hover{
+    color: white;  
+}
+
+#portfolio{
+    text-align: center;
+}
+
+
+.gallery{
+    margin-top: 45px;
+    padding-left: 10%;
+    display: inline-block;
+}
+
+.about{
+    background-image: url(/imagens/bg_detalhe.png);
+    background-size: cover;
+    padding: 70px;
+    color: white;
+}
+
+.about p{
+    padding-right: 50%;
+    font-size: 16px;
+}
+
+.about h1{
+    font-size: 50px;
+}
+
+.contact{
+    text-align: center;
+    color: cadetblue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    padding: 15px;
+    color: white;
+    margin-top: 50px;
+}
